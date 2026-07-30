@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Hello GitHub Actions!"
+        
+      - name: Show Date
+        run: date
+
+      - name: Show Current Folder
+        run: pwd
