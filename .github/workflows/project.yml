@@ -1,0 +1,23 @@
+name: Linux Practice
+on: workflow_dispatch
+jobs:
+ practice:
+  runs-on: ubuntu-latest
+  steps:
+    - name: print hello devops
+      run: echo "hello devops"
+
+    - name: Print Current date
+      run: date
+
+    - name: print Currentdirectory
+      run: pwd
+    
+    - name: print Currentuser
+      run: whoami
+
+    - name: print files in repo
+      run: ls
+
+
+
