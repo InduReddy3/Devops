@@ -1,0 +1,14 @@
+name: Repository Info
+on: workflow_dispatch
+jobs:
+  demo:
+   runs-on: ubuntu-latest
+   steps:
+     - name: download repo
+       uses: actions/checkout@v4
+     - name: show files
+       run: ls
+     - name: print Currentdirectory
+       run: pwd
+     - name: print Message
+       run: echo "Workflow Completed"
